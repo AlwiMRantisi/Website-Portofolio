@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    height: auto;
+}
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar a {
+    margin: 20px 0;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    display: block;
+    text-align: center;
+    transform: rotate(90deg);
+    width: 120px;
+    height: 70px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: transparent(255, 255, 255, 0.2);
+    color: #ff0000;
+    font-size: 28px;
+}
+
+.sidebar a:not(:hover) {
+    font-size: 20px;
+}
+
+.background_Gambar1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 10%;
+
+}
+
+.background_Gambar1 h1,.background_Gambar1 p{
+    position: absolute;
+    left: 49%;
+    transform: translateX(-50%);
+    color: white;
+    mix-blend-mode: difference;
+
+    
+}
+
+.background_Gambar1 image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.background_Gambar1 h1{
+    top: 20%;
+    font-size: 5cm;
+    margin: 0;
+}
+
+.background_Gambar1 p {
+    top:70%;
+    color: white;
+    font-size: 2cm;
+    margin: 0;
+}
+
+.about{
+    margin: auto;
+    margin-top: 50%;
+    background-color: white;
+    height: 828px;
+    text-align: center;
+    
+}
+
+.about h1{
+    color: rgb(0, 0, 0);
+    margin: auto;
+}
+.about p {
+    color: rgb(0, 0, 0);
+    
+}
+
+.footer{
+    background-color: black;
+}
